@@ -72,7 +72,6 @@ const displayQuiz = (data) => {
   </div>
 </div>`;
   });
-
 };
 
 // EventListener for quiz submit button
