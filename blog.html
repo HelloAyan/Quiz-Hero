@@ -35,10 +35,11 @@
             <div class="text-zinc-800 font-bold uppercase">
                 <h1 class="text-lg">Quiz <span class="text-green-700">HERO</span></h1>
                 <p class="text-[10px] font-normal capitalize -mt-1">
-                    Get ready to Quiz and be amazed!
+                    Welcome to Blog Page!
                 </p>
             </div>
-            <button class="bg-green-600 font-light text-sm px-5 py-1 rounded text-white" onclick="location.href='./'">
+            <button class="bg-green-600 font-light text-sm px-5 py-1 rounded text-white  font-semibold "
+                onclick="location.href='./'">
                 Home
             </button>
         </nav>
@@ -46,19 +47,54 @@
     <!-- Header/Navbar section end -->
 
     <!-- Blog section start -->
-    <section class="md:w-9/12 w-[90%] md:flex-row flex-col mx-auto pt-6" id="submitContainer">
+    <section class="md:w-12/12 w-[90%] md:flex-row flex-col mx-auto pt-6">
         <!-- Question section start -->
-        <div class="md:w-[70%] w-full" id="quiz">
-            <div class="duration-500" id="quizContainer">Hello</div>
+        <div class="md:w-[80%] w-full">
+            <div>
+                <div class=" text-lg  font-semibold  "> 1. Difference between Map, Filter, ForEach & Find ? </div>
+                <div class="py-2"> <span class="font-semibold">ForEach:</span> The forEach method allows us to run a
+                    function for every element of the array. ForEach
+                    doesn’t return anything.
+                </div>
+                <div class="py-2"> <span class="font-semibold">Map:</span> The map method is very similar to the forEach
+                    method—it allows us to execute a
+                    function for each
+                    element of an array. But the difference is that the map method creates a new array using the return
+                    values of this function.
+                </div>
+                <div class="py-2"> <span class="font-semibold">Find:</span> The find function returns the first item
+                    that matches the callback function, or
+                    undefined if there
+                    is nothing that matches.
+                </div>
+                <div class="py-2"> <span class="font-semibold">Filter:</span> Filter works like the find function, but
+                    instead of returning the first matched item,
+                    filter will
+                    return the array of matched items or an empty array if nothing matched.
+                </div>
+            </div>
+
+            <div class="my-5">
+                <div class=" text-lg  font-semibold  "> 2. Difference between Local Storage, Session Storage & Cookies ?
+                </div>
+                <div class="py-2"> <span class="font-semibold">Local Storage:</span> This read-only interface property
+                    provides access to the Document’s local storage object, the stored data is stored across browser
+                    sessions. Similar to sessionStorage, except that sessionStorage data gets cleared when the page is
+                    closed.
+                </div>
+                <div class="py-2"> <span class="font-semibold">Session Storage:</span> Session Storage objects can be
+                    accessed using the sessionStorage read-only property. The difference between sessionStorage and
+                    localStorage is that localStorage data does not expire, whereas sessionStorage data is cleared when
+                    the page session ends.
+                </div>
+
+            </div>
         </div>
         <!-- Question section end -->
 
-        <div class="md:w-[30%] w-full shadow-sm">
-
-        </div>
-
     </section>
     <!-- Blog section end -->
+
 </body>
 
 </html>
