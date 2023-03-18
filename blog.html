@@ -87,8 +87,36 @@
                     localStorage is that localStorage data does not expire, whereas sessionStorage data is cleared when
                     the page session ends.
                 </div>
+                <div class="py-2"> <span class="font-semibold">Cookies:</span> Cookies are data, stored in small text
+                    files as name-value pairs, on our computer. New cookies can also be created via JavaScript using the
+                    Document.cookie property, and if the HttpOnly flag is not set, existing cookies can be accessed from
+                    JavaScript as well.
+                </div>
 
             </div>
+
+            <div class="my-5">
+                <div class=" text-lg  font-semibold  "> 3. What is Event Loop? How it's works ?
+                </div>
+                <div class="py-2"> <span class="font-semibold">Event Loop: </span> JavaScript has a runtime model based
+                    on an event loop, which is responsible for executing the code, collecting and processing events, and
+                    executing queued sub-tasks. The Event Loop has one simple job — to monitor the Call Stack and the
+                    Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue
+                    and will push it to the Call Stack, which effectively runs it.
+                </div>
+                <div class="py-2"> <span class="font-semibold">How it's works: </span> The event loop runs
+                    continuously and checks for any pending tasks in a queue. If a task is found, the event loop moves
+                    it to the execution stack for processing. If the execution stack is empty, the event loop waits
+                    until a task is added to the queue.
+                    Once a task is executed, any associated callback functions are added to the event queue. These
+                    callbacks are executed in the order in which they were added, and the event loop continues to
+                    process tasks and callbacks in this way.
+                </div>
+
+
+            </div>
+
+
         </div>
         <!-- Question section end -->
 
